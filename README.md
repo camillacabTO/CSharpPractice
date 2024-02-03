@@ -1,4 +1,4 @@
-# My C# Learning Journey - [Your GitHub Username]
+# My C# Learning Journey
 
 Hello there! This repository is a living record of my journey into the world of C#. As someone who has recently dived into learning this versatile language, I wanted to create a space where I could both measure my progress and share the experience with anyone interested in following along or embarking on a similar path.
 
