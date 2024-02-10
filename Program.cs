@@ -6,7 +6,16 @@ namespace Practice
     {
         static void Main(string[] args)
         {
+            var mixedStack = new MyStack();
+            mixedStack.Push(10); // Push an integer
+            mixedStack.Push("hello"); // Push a string
+            mixedStack.Push(new { Name = "Alice", Age = 30 });
 
+            // Popping items will give them back in reverse order
+            var person = mixedStack.Pop(); // Need to cast when retrieving non-primitive types
+            var greeting = (string)mixedStack.Pop(); // Cast to string
+            var number = (int)mixedStack.Pop(); // No cast needed for primitives
+            Console.WriteLine("{0} {1} {2}", person, greeting, number);
         }
     }
 }
