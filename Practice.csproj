@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <Compile Remove="Dog.cs" />
+      <Compile Remove="Stack.cs" />
     </ItemGroup>
 
 </Project>
